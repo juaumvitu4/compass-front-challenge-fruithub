@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'TT Norms Pro';
+    background-color: #ccc;
+}
+
+.card-main {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.card-main {
+    width: 370px;
+    height: 540px;
+    background-color: #FFA451;
+    border-radius: 40px 40px 0px 0px;
+    
+}
+
+.fruit-main {
+    background-color: #FFA451;
+    display: flex;      
+    width: 300px;
+    height: 369px;
+    
+    
+}
+
+.fruit-main {
+    display: flex;
+    margin-left: 30px;
+    
+}
+.fruit {
+    justify-content: center;
+    align-items: center;
+}
+
+.text-main {
+    width: 370px;
+    height: 300px;
+    background-color: white;
+    border-radius: 0px 0px 40px 40px;
+    
+
+}
+
+.title-main {
+    text-align: center;
+    margin-right: 40px;
+    font-weight: 700;
+    padding-top: 30px;
+    
+}
+
+.description {    
+    letter-spacing: -0.01em;
+    font-size: 16px; 
+    text-align: center;   
+    margin-right: 24px;
+    font-weight: 400;
+    
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    height: 40px;
+    border: none;  
+    background: #FFA451;
+    border-radius: 10px;
+    align-items: center; 
+    margin: 30px 30px;    
+    color: white;
+    margin-left: 60px;
+    
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.direction {
+    text-decoration: none;
+}
