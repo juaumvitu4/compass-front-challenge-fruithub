@@ -95,3 +95,29 @@ body {
     margin-left: 60px;
     
 }
+
+@media (max-width: 320px) {
+    .card-main{
+        width: auto;
+        height: 600px;
+    }
+    .fruit-main {        
+        width: 200px;
+        height: 200px;
+        margin-left: 80px;
+    }
+    .text-main {
+        width: 370px;
+        height: 380px;
+    }
+
+    .name-description, .name {
+        margin-left: 60px;
+    }
+    
+
+    .btn {
+        justify-content: center;
+    }
+
+}
