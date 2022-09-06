@@ -1,104 +1,69 @@
-body {    
+body {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
-    font-family: 'TT Norms Pro';
-    
 }
 
-.card-main {
-    display: flex;
-    justify-content: center;   
-
-}
-
-.card-main {
-    width: 100%;
-    height: 390px;
-    background-color: #FFA451;
-    border-radius: 40px 40px 0px 0px;
-    
-}
-
-.fruit-main {
-    background-color: #FFA451;
-    display: flex;      
-    width: 300px;
-    height: 369px;
-    
-}
-
-.fruit {
-    justify-content: center;
-    align-items: center;
-}
-
-.text-main {
-    width: 370px;
+.logo-img {    
+    width: 400px;
     height: 300px;
-    background-color: white;
-    border-radius: 0px 0px 40px 40px;
-    
-
+    margin-bottom: 20px;
 }
 
-.title-main {
-    text-align: center;
-    margin-right: 40px;
-    font-weight: 700;
-    padding-top: 30px;
-    
+.logo-img:hover {
+    width: 420px;
+    height: 340px;
+    transition-duration: 1s;
 }
 
-.description {    
-    letter-spacing: -0.01em;
-    font-size: 16px; 
-    text-align: center;   
-    margin-right: 24px;
-    font-weight: 400;
-    
-}
-
-.btn {
-    display: flex;
-    justify-content: space-around;
-    width: 240px;
-    height: 40px;
-    border: none;  
-    background: #FFA451;
-    border-radius: 10px;
-    align-items: center; 
-    margin: 30px 30px;    
-    color: white;
-    margin-left: 60px;
+.btn-link {
+    text-decoration: none;
     
 }
 
 .btn:hover {
     cursor: pointer;
-}
-
-.direction {
     text-decoration: none;
+    width: 270px;
+    height: 40px;
+    transition: 1s;
+    
+
 }
 
-@media (max-width: 320px) {
-    .card-main {
-        display: flex;
-        justify-content: center;
-        width: auto;
-        height: 500px;
-    }
+.fruit-hub {
+    display: flex;
+    justify-content: center;
+    width: 184px;
+    height: 40px;
+    left: 95px;
+    top: 468.05px;
+    background: #FFA451;
+    box-shadow: 0px -30px 60px rgba(32, 32, 32, 0.05);
+    border-radius: 16px 0px;
+    margin-left: 90px;
+}
 
-    .fruit-main {        
-        width: 200px;
-        height: 200px;
-        margin-left: 80px;
+.fruit-hub:hover {
+    width: 195px;
+    height: 40px;
+}
+
+.fruit-text {
+    font-family: 'Bad Script', sans-serif;
+    line-height: 0px;
+    font-weight: 400px;
+    font-style: italic;
+    font-size: 24px;    
+    color: white;
+
+}
+
+@media (max-width: 320px) { 
+    .logo-img {
+        margin-left: 5px;
     }
-    .title-main, .description {
-        margin-left: 25px;
-    }
-    .btn {
-        width: 240px;
-        height: 60px;
+    .fruit-hub {
+        margin-left: 105px;
     }
 }
